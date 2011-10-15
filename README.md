@@ -3,11 +3,7 @@ in-development
 
 by ShareBrained Technology
 
-http://www.sharebrained.com/
-
-The latest version of this repository can be found at:
-
-    https://github.com/sharebrained/in-development
+The latest version of this repository can be found at https://github.com/sharebrained/in-development
 
 Description
 ===========
