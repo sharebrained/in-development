@@ -4,7 +4,7 @@ wm8731
 by ShareBrained Technology
 
 The latest version of this repository can be found at
-<https://github.com/sharebrained/in-development/wm8731>
+<https://github.com/sharebrained/in-development/tree/master/wm8731>
 
 Description
 ===========

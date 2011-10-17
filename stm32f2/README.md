@@ -4,7 +4,7 @@ stm32f2
 by ShareBrained Technology
 
 The latest version of this repository can be found at
-<https://github.com/sharebrained/in-development/stm32f2>
+<https://github.com/sharebrained/in-development/tree/master/stm32f2>
 
 Description
 ===========
