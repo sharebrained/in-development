@@ -1,0 +1,643 @@
+# EESchema Netlist Version 1.1 created  Thu 30 May 2013 05:02:27 PM PDT
+(
+ ( /51808F38 IPC_CAPC1608X95N C1 100N
+  ( 1 /SYSTEM_3P3V )
+  ( 2 GND )
+ )
+ ( /5180A811 IPC_CAPAE530X540N C2 10U
+  ( 1 /LOUT )
+  ( 2 N-000006 )
+ )
+ ( /5180A882 IPC_CAPAE530X540N C3 10U
+  ( 1 /ROUT )
+  ( 2 N-000001 )
+ )
+ ( /5180A582 IPC_CAPC1608X95N C4 10U
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /5180A57E IPC_CAPC1608X95N C5 100N
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /5180A347 IPC_CAPC1608X95N C6 10U
+  ( 1 GND )
+  ( 2 /SYSTEM_3P3V )
+ )
+ ( /5180A504 IPC_CAPC1608X95N C7 10U
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /5180A330 IPC_CAPC1608X95N C8 100N
+  ( 1 GND )
+  ( 2 /SYSTEM_3P3V )
+ )
+ ( /5180A502 IPC_CAPC1608X95N C9 100N
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /5180A8ED IPC_CAPAE830X620N C10 220U
+  ( 1 /LHPOUT )
+  ( 2 N-000106 )
+ )
+ ( /5180A904 IPC_CAPAE830X620N C11 220U
+  ( 1 /RHPOUT )
+  ( 2 N-000010 )
+ )
+ ( /5180A373 IPC_CAPC1608X95N C12 100N
+  ( 1 GND )
+  ( 2 /SYSTEM_3P3V )
+ )
+ ( /5180A41F IPC_CAPC1608X95N C13 100N
+  ( 1 /VMID )
+  ( 2 GND )
+ )
+ ( /5180A379 IPC_CAPC1608X95N C14 10U
+  ( 1 GND )
+  ( 2 /SYSTEM_3P3V )
+ )
+ ( /5180A41A IPC_CAPC1608X95N C15 10U
+  ( 1 /VMID )
+  ( 2 GND )
+ )
+ ( /5180A9E7 IPC_CAPC1608X95N C18 220P
+  ( 1 N-000008 )
+  ( 2 GND )
+ )
+ ( /5180A9EC IPC_CAPC1608X95N C19 220P
+  ( 1 N-000012 )
+  ( 2 GND )
+ )
+ ( /5180A95A IPC_CAPAE430X540N C20 1U
+  ( 1 /LLINEIN )
+  ( 2 N-000008 )
+ )
+ ( /5180A9BA IPC_CAPAE430X540N C21 1U
+  ( 1 /RLINEIN )
+  ( 2 N-000012 )
+ )
+ ( /518B2979 IPC_CAPC1608X95N C22 10U
+  ( 1 /SYSTEM_5V )
+  ( 2 GND )
+ )
+ ( /518B291E IPC_CAPC1608X95N C23 DNI
+  ( 1 N-000021 )
+  ( 2 GND )
+ )
+ ( /518B293F IPC_CAPC1608X95N C24 10U
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /518B3762 IPC_CAPC1608X95N C25 15P
+  ( 1 /XTI_MCLK )
+  ( 2 GND )
+ )
+ ( /518B3766 IPC_CAPC1608X95N C26 15P
+  ( 1 /XTO )
+  ( 2 GND )
+ )
+ ( /5180452E beaglebone_black J1 BEAGLEBONE_BLACK
+  ( A1 GND )
+  ( A2 GND )
+  ( A3 ? )
+  ( A4 ? )
+  ( A5 ? )
+  ( A6 ? )
+  ( A7 ? )
+  ( A8 ? )
+  ( A9 ? )
+  ( A10 ? )
+  ( A11 ? )
+  ( A12 ? )
+  ( A13 ? )
+  ( A14 ? )
+  ( A15 ? )
+  ( A16 ? )
+  ( A17 ? )
+  ( A18 ? )
+  ( A19 ? )
+  ( A20 ? )
+  ( A21 ? )
+  ( A22 ? )
+  ( A23 ? )
+  ( A24 ? )
+  ( A25 ? )
+  ( A26 ? )
+  ( A27 ? )
+  ( A28 ? )
+  ( A29 ? )
+  ( A30 ? )
+  ( A31 ? )
+  ( A32 ? )
+  ( A33 ? )
+  ( A34 ? )
+  ( A35 ? )
+  ( A36 ? )
+  ( A37 ? )
+  ( A38 ? )
+  ( A39 ? )
+  ( A40 ? )
+  ( A41 ? )
+  ( A42 ? )
+  ( A43 ? )
+  ( A44 ? )
+  ( A45 ? )
+  ( A46 ? )
+  ( B1 GND )
+  ( B2 GND )
+  ( B3 /SYSTEM_3P3V )
+  ( B4 /SYSTEM_3P3V )
+  ( B5 ? )
+  ( B6 ? )
+  ( B7 /SYSTEM_5V )
+  ( B8 /SYSTEM_5V )
+  ( B9 ? )
+  ( B10 ? )
+  ( B11 ? )
+  ( B12 ? )
+  ( B13 ? )
+  ( B14 ? )
+  ( B15 ? )
+  ( B16 ? )
+  ( B17 /SPI0_CS0 )
+  ( B18 /SPI0_D1 )
+  ( B19 /I2C2_SCL )
+  ( B20 /I2C2_SDA )
+  ( B21 /SPI0_D0 )
+  ( B22 /SPI0_SCLK )
+  ( B23 ? )
+  ( B24 ? )
+  ( B25 /MCASP0_AHCLKX )
+  ( B26 ? )
+  ( B27 /MCASP0_FSR )
+  ( B28 /MCASP0_AHCLKR )
+  ( B29 /MCASP0_FSX )
+  ( B30 /MCASP0_AXR0 )
+  ( B31 /MCASP0_ACLKX )
+  ( B32 ? )
+  ( B33 ? )
+  ( B34 ? )
+  ( B35 ? )
+  ( B36 ? )
+  ( B37 ? )
+  ( B38 ? )
+  ( B39 ? )
+  ( B40 ? )
+  ( B41 /MCASP0_AXR1 )
+  ( B42 /MCASP0_ACLKR )
+  ( B43 GND )
+  ( B44 GND )
+  ( B45 GND )
+  ( B46 GND )
+ )
+ ( /518B2311 CUI_SJ1-352XN P2 TRS_JACK
+  ( 1 GND )
+  ( 2 N-000019 )
+  ( 3 N-000020 )
+ )
+ ( /518B23BF CUI_SJ1-352XN P3 TRS_JACK
+  ( 1 GND )
+  ( 2 N-000106 )
+  ( 3 N-000010 )
+ )
+ ( /518B2413 CUI_SJ1-352XN P4 TRS_JACK
+  ( 1 GND )
+  ( 2 N-000022 )
+  ( 3 N-000023 )
+ )
+ ( /51808E95 IPC_RESC1608X55N R1 10K
+  ( 1 /SYSTEM_3P3V )
+  ( 2 N-000092 )
+ )
+ ( /51808E88 IPC_RESC1608X55N R2 10K
+  ( 1 /SYSTEM_3P3V )
+  ( 2 N-000093 )
+ )
+ ( /51808E53 IPC_RESC1608X55N R3 10K
+  ( 1 /SYSTEM_3P3V )
+  ( 2 N-000090 )
+ )
+ ( /51808ED3 IPC_RESC1608X55N R4 10K
+  ( 1 /SYSTEM_3P3V )
+  ( 2 N-000103 )
+ )
+ ( /51808ED9 IPC_RESC1608X55N R5 5K6
+  ( 1 /SYSTEM_3P3V )
+  ( 2 /I2C2_SCL )
+ )
+ ( /51808EDD IPC_RESC1608X55N R6 5K6
+  ( 1 /SYSTEM_3P3V )
+  ( 2 /I2C2_SDA )
+ )
+ ( /5180A848 IPC_RESC1608X55N R7 47K
+  ( 1 N-000006 )
+  ( 2 GND )
+ )
+ ( /5180A886 IPC_RESC1608X55N R8 47K
+  ( 1 N-000001 )
+  ( 2 GND )
+ )
+ ( /5180A854 IPC_RESC1608X55N R9 100R
+  ( 1 N-000006 )
+  ( 2 N-000022 )
+ )
+ ( /5180A88A IPC_RESC1608X55N R10 100R
+  ( 1 N-000001 )
+  ( 2 N-000023 )
+ )
+ ( /5180A92B IPC_RESC1608X55N R11 47K
+  ( 1 N-000106 )
+  ( 2 GND )
+ )
+ ( /5180A92E IPC_RESC1608X55N R12 47K
+  ( 1 N-000010 )
+  ( 2 GND )
+ )
+ ( /5180AA06 IPC_RESC1608X55N R14 5K6
+  ( 1 N-000008 )
+  ( 2 N-000019 )
+ )
+ ( /5180AA00 IPC_RESC1608X55N R15 5K6
+  ( 1 N-000012 )
+  ( 2 N-000020 )
+ )
+ ( /5180A485 IPC_RESC1608X55N R16 0R
+  ( 1 /SYSTEM_3P3V )
+  ( 2 /MODE )
+ )
+ ( /5180A9F2 IPC_RESC1608X55N R17 5K6
+  ( 1 N-000008 )
+  ( 2 GND )
+ )
+ ( /5180A9FC IPC_RESC1608X55N R18 5K6
+  ( 1 N-000012 )
+  ( 2 GND )
+ )
+ ( /518B31DC IPC_RESC1608X55N R21 10K
+  ( 1 /SYSTEM_3P3V )
+  ( 2 GND )
+ )
+ ( /518B2923 IPC_RESC1608X55N R22 DNI
+  ( 1 N-000021 )
+  ( 2 GND )
+ )
+ ( /518B2936 IPC_RESC1608X55N R23 DNI
+  ( 1 3V3 )
+  ( 2 N-000021 )
+ )
+ ( /518BE520 IPC_RESC1608X55N R24 DNI
+  ( 1 /CLKOUT )
+  ( 2 /MCASP0_AHCLKR )
+ )
+ ( /518BE244 IPC_RESC1608X55N R25 100R
+  ( 1 /CLKOUT )
+  ( 2 /MCASP0_AHCLKX )
+ )
+ ( /518BE51A IPC_RESC1608X55N R26 DNI
+  ( 1 /BCLK )
+  ( 2 /MCASP0_ACLKR )
+ )
+ ( /518BE2B5 IPC_RESC1608X55N R27 33R
+  ( 1 /BCLK )
+  ( 2 /MCASP0_ACLKX )
+ )
+ ( /518BE348 IPC_RESC1608X55N R28 33R
+  ( 1 /DACDAT )
+  ( 2 /MCASP0_AXR1 )
+ )
+ ( /518BE34D IPC_RESC1608X55N R29 33R
+  ( 1 /DACLRC )
+  ( 2 /MCASP0_FSX )
+ )
+ ( /518BE388 IPC_RESC1608X55N R30 33R
+  ( 1 /ADCDAT )
+  ( 2 /MCASP0_AXR0 )
+ )
+ ( /518BE38C IPC_RESC1608X55N R31 33R
+  ( 1 /ADCLRC )
+  ( 2 /MCASP0_FSR )
+ )
+ ( /518BE71C IPC_RESC1608X55N R32 DNI
+  ( 1 /I2C2_SCL )
+  ( 2 /SCLK )
+ )
+ ( /518BE72E IPC_RESC1608X55N R33 0R
+  ( 1 /SPI0_SCLK )
+  ( 2 /SCLK )
+ )
+ ( /518BE73C IPC_RESC1608X55N R34 DNI
+  ( 1 /I2C2_SDA )
+  ( 2 /SDIN )
+ )
+ ( /518BE86B IPC_RESC1608X55N R35 DNI
+  ( 1 /SPI0_D1 )
+  ( 2 /SDIN )
+ )
+ ( /518BE73F IPC_RESC1608X55N R36 0R
+  ( 1 /SPI0_D0 )
+  ( 2 /SDIN )
+ )
+ ( /518BE7AE IPC_RESC1608X55N R37 DNI
+  ( 1 GND )
+  ( 2 /MODE )
+ )
+ ( /518BE1D0 IPC_RESC1608X55N R38 DNI
+  ( 1 /XTI_MCLK )
+  ( 2 /MCASP0_AHCLKX )
+ )
+ ( /518C553A IPC_RESC1608X55N R39 1M
+  ( 1 /XTO )
+  ( 2 /XTI_MCLK )
+ )
+ ( /51809819 TP_1MM TP1 TP
+  ( 1 N-000090 )
+ )
+ ( /5180982C TP_1MM TP2 TP
+  ( 1 N-000093 )
+ )
+ ( /518095D8 TP_1MM TP3 TP
+  ( 1 N-000103 )
+ )
+ ( /51A7DFFE TP_1MM TP4 TP
+  ( 1 GND )
+ )
+ ( /518077FC IPC_SOP65P780X200-28N U1 WM8731SEDS
+  ( 1 /SYSTEM_3P3V )
+  ( 2 /CLKOUT )
+  ( 3 /BCLK )
+  ( 4 /DACDAT )
+  ( 5 /DACLRC )
+  ( 6 /ADCDAT )
+  ( 7 /ADCLRC )
+  ( 8 3V3 )
+  ( 9 /LHPOUT )
+  ( 10 /RHPOUT )
+  ( 11 GND )
+  ( 12 /LOUT )
+  ( 13 /ROUT )
+  ( 14 3V3 )
+  ( 15 GND )
+  ( 16 /VMID )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 /RLINEIN )
+  ( 20 /LLINEIN )
+  ( 21 /MODE )
+  ( 22 /SPI0_CS0 )
+  ( 23 /SDIN )
+  ( 24 /SCLK )
+  ( 25 /XTI_MCLK )
+  ( 26 /XTO )
+  ( 27 /SYSTEM_3P3V )
+  ( 28 GND )
+ )
+ ( /51808BFA IPC_SOIC127P780X205-8N U2 ON_CAT24C256
+  ( 1 N-000090 )
+  ( 2 N-000093 )
+  ( 3 N-000092 )
+  ( 4 GND )
+  ( 5 /I2C2_SDA )
+  ( 6 /I2C2_SCL )
+  ( 7 N-000103 )
+  ( 8 /SYSTEM_3P3V )
+ )
+ ( /518B2907 IPC_SOT95P280X110-5N U3 ADP151AUJZ-3.3-R7
+  ( 1 /SYSTEM_5V )
+  ( 2 GND )
+  ( 3 /SYSTEM_3P3V )
+  ( 4 N-000021 )
+  ( 5 3V3 )
+ )
+ ( /518B35DE IPC_OSCCC320X500X105-4N X1 12M288
+  ( 1 /XTI_MCLK )
+  ( 2 GND )
+  ( 3 /XTO )
+  ( 4 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ IPC_CAPC*
+$endlist
+$component C2
+ IPC_CAPCP*
+ IPC_CAPAE*
+$endlist
+$component C3
+ IPC_CAPCP*
+ IPC_CAPAE*
+$endlist
+$component C4
+ IPC_CAPC*
+$endlist
+$component C5
+ IPC_CAPC*
+$endlist
+$component C6
+ IPC_CAPC*
+$endlist
+$component C7
+ IPC_CAPC*
+$endlist
+$component C8
+ IPC_CAPC*
+$endlist
+$component C9
+ IPC_CAPC*
+$endlist
+$component C10
+ IPC_CAPCP*
+ IPC_CAPAE*
+$endlist
+$component C11
+ IPC_CAPCP*
+ IPC_CAPAE*
+$endlist
+$component C12
+ IPC_CAPC*
+$endlist
+$component C13
+ IPC_CAPC*
+$endlist
+$component C14
+ IPC_CAPC*
+$endlist
+$component C15
+ IPC_CAPC*
+$endlist
+$component C18
+ IPC_CAPC*
+$endlist
+$component C19
+ IPC_CAPC*
+$endlist
+$component C20
+ IPC_CAPCP*
+ IPC_CAPAE*
+$endlist
+$component C21
+ IPC_CAPCP*
+ IPC_CAPAE*
+$endlist
+$component C22
+ IPC_CAPC*
+$endlist
+$component C23
+ IPC_CAPC*
+$endlist
+$component C24
+ IPC_CAPC*
+$endlist
+$component C25
+ IPC_CAPC*
+$endlist
+$component C26
+ IPC_CAPC*
+$endlist
+$component J1
+ beaglebone_black
+$endlist
+$component P2
+ CUI_SJ1-352XN
+$endlist
+$component P3
+ CUI_SJ1-352XN
+$endlist
+$component P4
+ CUI_SJ1-352XN
+$endlist
+$component R1
+ IPC_RESC*
+$endlist
+$component R2
+ IPC_RESC*
+$endlist
+$component R3
+ IPC_RESC*
+$endlist
+$component R4
+ IPC_RESC*
+$endlist
+$component R5
+ IPC_RESC*
+$endlist
+$component R6
+ IPC_RESC*
+$endlist
+$component R7
+ IPC_RESC*
+$endlist
+$component R8
+ IPC_RESC*
+$endlist
+$component R9
+ IPC_RESC*
+$endlist
+$component R10
+ IPC_RESC*
+$endlist
+$component R11
+ IPC_RESC*
+$endlist
+$component R12
+ IPC_RESC*
+$endlist
+$component R14
+ IPC_RESC*
+$endlist
+$component R15
+ IPC_RESC*
+$endlist
+$component R16
+ IPC_RESC*
+$endlist
+$component R17
+ IPC_RESC*
+$endlist
+$component R18
+ IPC_RESC*
+$endlist
+$component R21
+ IPC_RESC*
+$endlist
+$component R22
+ IPC_RESC*
+$endlist
+$component R23
+ IPC_RESC*
+$endlist
+$component R24
+ IPC_RESC*
+$endlist
+$component R25
+ IPC_RESC*
+$endlist
+$component R26
+ IPC_RESC*
+$endlist
+$component R27
+ IPC_RESC*
+$endlist
+$component R28
+ IPC_RESC*
+$endlist
+$component R29
+ IPC_RESC*
+$endlist
+$component R30
+ IPC_RESC*
+$endlist
+$component R31
+ IPC_RESC*
+$endlist
+$component R32
+ IPC_RESC*
+$endlist
+$component R33
+ IPC_RESC*
+$endlist
+$component R34
+ IPC_RESC*
+$endlist
+$component R35
+ IPC_RESC*
+$endlist
+$component R36
+ IPC_RESC*
+$endlist
+$component R37
+ IPC_RESC*
+$endlist
+$component R38
+ IPC_RESC*
+$endlist
+$component R39
+ IPC_RESC*
+$endlist
+$component TP1
+ TP_*
+$endlist
+$component TP2
+ TP_*
+$endlist
+$component TP3
+ TP_*
+$endlist
+$component TP4
+ TP_*
+$endlist
+$component U1
+ IPC_SOP65P780X200-28N
+$endlist
+$component U2
+ IPC_SOIC127P780X205-8N
+$endlist
+$component U3
+ IPC_SOT95P280X110-5N
+$endlist
+$component X1
+ IPC_OSCCC*
+$endlist
+$endfootprintlist
+}
