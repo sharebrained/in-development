@@ -1,0 +1,378 @@
+# EESchema Netlist Version 1.1 created  Thu 30 May 2013 10:06:19 PM PDT
+(
+ ( /5187204F IPC_CAPC1608X95N C1 1U
+  ( 1 N-000021 )
+  ( 2 N-000019 )
+ )
+ ( /51871F9D IPC_CAPC1608X95N C2 100N
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /51871FA8 IPC_CAPC1608X95N C3 100N
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /51880CF1 IPC_CAPC2012X140N C4 10U
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /51883B66 IPC_CAPC2012X140N C5 10U
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /518723CB IPC_LEDC1608X60N D1 LED
+  ( 1 3V3 )
+  ( 2 N-000014 )
+ )
+ ( /518723DC IPC_LEDC1608X60N D2 LED
+  ( 1 3V3 )
+  ( 2 N-000013 )
+ )
+ ( /518723E5 IPC_LEDC1608X60N D3 LED
+  ( 1 3V3 )
+  ( 2 N-000015 )
+ )
+ ( /51872436 IPC_LEDC1608X60N D4 LED
+  ( 1 3V3 )
+  ( 2 N-000016 )
+ )
+ ( /51872498 IPC_LEDC1608X60N D5 LED
+  ( 1 3V3 )
+  ( 2 N-000006 )
+ )
+ ( /51872469 IPC_LEDC1608X60N D10 LED
+  ( 1 3V3 )
+  ( 2 N-000017 )
+ )
+ ( /5187FDB8 HEADER_1X8_TH_254 P1 CONN_8
+  ( 1 /CRITICAL )
+  ( 2 /OVERLIMIT )
+  ( 3 GND )
+  ( 4 /GPIO )
+  ( 5 /CONVERT )
+  ( 6 3V3 )
+  ( 7 /ALERT )
+  ( 8 /WARNING )
+ )
+ ( /5187FCA7 HEADER_4X2_TH_254 P2 CONN_4X2
+  ( 1 3V3 )
+  ( 2 3V3 )
+  ( 3 /SDA )
+  ( 4 /SDA )
+  ( 5 GND )
+  ( 6 GND )
+  ( 7 /SCL )
+  ( 8 /SCL )
+ )
+ ( /5187FD7B HEADER_2X2_TH_254 P3 CONN_2X2
+  ( 1 /A1 )
+  ( 2 GND )
+  ( 3 /A0 )
+  ( 4 GND )
+ )
+ ( /51880910 ED100_3DS P4 CONN_3
+  ( 1 /VIN+ )
+  ( 2 /VIN- )
+  ( 3 GND )
+ )
+ ( /518749F5 OHMITE_LVK12 R1 R_SENSE
+  ( I1 /VIN+ )
+  ( I2 /VIN- )
+  ( V1 N-000012 )
+  ( V2 N-000005 )
+ )
+ ( /51871F2A IPC_RESC1608X55N R2 10R
+  ( 1 N-000012 )
+  ( 2 N-000021 )
+ )
+ ( /51871F35 IPC_RESC1608X55N R3 10R
+  ( 1 N-000005 )
+  ( 2 N-000019 )
+ )
+ ( /51872127 IPC_RESC1608X55N R4 10K
+  ( 1 /OVERLIMIT )
+  ( 2 3V3 )
+ )
+ ( /5187240A IPC_RESC1608X55N R5 2K2
+  ( 1 N-000014 )
+  ( 2 /OVERLIMIT )
+ )
+ ( /5187212C IPC_RESC1608X55N R6 10K
+  ( 1 /CRITICAL )
+  ( 2 3V3 )
+ )
+ ( /51872413 IPC_RESC1608X55N R7 2K2
+  ( 1 N-000013 )
+  ( 2 /CRITICAL )
+ )
+ ( /51872297 IPC_RESC1608X55N R8 10K
+  ( 1 /CONVERT )
+  ( 2 3V3 )
+ )
+ ( /5187241A IPC_RESC1608X55N R9 2K2
+  ( 1 N-000015 )
+  ( 2 /CONVERT )
+ )
+ ( /5187242D IPC_RESC1608X55N R10 2K2
+  ( 1 N-000016 )
+  ( 2 /GPIO )
+ )
+ ( /5187211E IPC_RESC1608X55N R11 10K
+  ( 1 /ALERT )
+  ( 2 3V3 )
+ )
+ ( /51872488 IPC_RESC1608X55N R12 2K2
+  ( 1 N-000006 )
+  ( 2 /ALERT )
+ )
+ ( /518721A5 IPC_RESC1608X55N R13 10K
+  ( 1 /A1 )
+  ( 2 3V3 )
+ )
+ ( /518721AF IPC_RESC1608X55N R15 10K
+  ( 1 /A0 )
+  ( 2 3V3 )
+ )
+ ( /518721C6 IPC_RESC1608X55N R17 4K7
+  ( 1 /SDA )
+  ( 2 3V3 )
+ )
+ ( /518721DD IPC_RESC1608X55N R19 4K7
+  ( 1 /SCL )
+  ( 2 3V3 )
+ )
+ ( /518720ED IPC_RESC1608X55N R21 10K
+  ( 1 /WARNING )
+  ( 2 3V3 )
+ )
+ ( /51872474 IPC_RESC1608X55N R22 2K2
+  ( 1 N-000017 )
+  ( 2 /WARNING )
+ )
+ ( /51871D2F IPC_SOP65P640X120-16N U1 INA209AIPW
+  ( 1 N-000021 )
+  ( 2 N-000019 )
+  ( 3 /CONVERT )
+  ( 4 GND )
+  ( 5 3V3 )
+  ( 6 /GPIO )
+  ( 7 /CRITICAL )
+  ( 8 /OVERLIMIT )
+  ( 9 /WARNING )
+  ( 10 3V3 )
+  ( 11 GND )
+  ( 12 /SCL )
+  ( 13 /SDA )
+  ( 14 /A0 )
+  ( 15 /A1 )
+  ( 16 /ALERT )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D10
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ OHMITE_LVK12
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R22
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component U1
+ IPC_SOP65P640X120-16N
+$endlist
+$endfootprintlist
+}
